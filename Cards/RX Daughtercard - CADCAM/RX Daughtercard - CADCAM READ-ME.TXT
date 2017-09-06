@@ -1,0 +1,66 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'pBackRX.pdsprj'.
+CADCAM generated at 13:43:17 on 05 May 2017.
+
+File List
+---------
+Top Copper              : RX Daughtercard - CADCAM Top Copper.GBR
+Bottom Copper           : RX Daughtercard - CADCAM Bottom Copper.GBR
+Top Silk Screen         : RX Daughtercard - CADCAM Top Silk Screen.GBR
+Bottom Silk Screen      : RX Daughtercard - CADCAM Bottom Silk Screen.GBR
+Top Solder Resist       : RX Daughtercard - CADCAM Top Solder Resist.GBR
+Bottom Solder Resist    : RX Daughtercard - CADCAM Bottom Solder Resist.GBR
+Top SMT Paste           : RX Daughtercard - CADCAM Top SMT Paste.GBR
+Top Assembly            : RX Daughtercard - CADCAM Top Assembly.GBR
+Bottom Assembly         : RX Daughtercard - CADCAM Bottom Assembly.GBR
+Drill, Plated, 1-16     : RX Daughtercard - CADCAM Drill TOP-BOT Plated.GBR
+Netlist                 : RX Daughtercard - CADCAM Netlist.IPC
+
+Photoplotter Setup
+------------------
+Format: X2, ASCII, 4.3, metric, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer, I=Index
+
+D10	CIRCLE  D=0.762mm                                                         DRAW  Conductor
+D11	CIRCLE  D=0.508mm                                                         DRAW  Conductor
+D12	RECT    W=1.524mm             H=1.016mm                                   FLASH SMDPad,CuDef
+D13	CIRCLE  D=1.778mm                                                         FLASH ComponentPad
+D14	CIRCLE  D=1.6256mm                                                        FLASH ComponentPad
+D15	CIRCLE  D=1.524mm                                                         FLASH ComponentPad
+D16	RECT    W=1.524mm             H=2.54mm                                    FLASH SMDPad,CuDef
+D17	CIRCLE  D=1.778mm                                                         FLASH OtherPad,Unknown
+D18	CIRCLE  D=5.2mm                                                           FLASH OtherPad,Unknown
+D19	CIRCLE  D=0.2032mm                                                        DRAW  Profile
+D70	CIRCLE  D=0.2032mm                                                        DRAW  Material
+D71	CIRCLE  D=0.0635mm                                                        DRAW  Material
+D20	PPAD    W=1.778mm             H=1.27mm              I=0                   FLASH Material
+D21	CIRCLE  D=2.032mm                                                         FLASH Material
+D22	CIRCLE  D=1.8796mm                                                        FLASH Material
+D23	CIRCLE  D=1.778mm                                                         FLASH Material
+D24	PPAD    W=1.778mm             H=2.794mm             I=1                   FLASH Material
+D25	CIRCLE  D=5.454mm                                                         FLASH Material
+D26	RECT    W=1.524mm             H=1.016mm                                   FLASH Material
+D27	RECT    W=1.524mm             H=2.54mm                                    FLASH Material
+D28	CIRCLE  D=0.10058mm                                                       DRAW  Material
+D29	CIRCLE  D=0.05508mm                                                       DRAW  Material
+D72	CIRCLE  D=0.20488mm                                                       DRAW  Material
+D73	CIRCLE  D=0.6877mm                                                        DRAW  Material
+D30	CIRCLE  D=1.016mm                                                         FLASH ComponentDrill
+D31	CIRCLE  D=0.8128mm                                                        FLASH ComponentDrill
+D32	CIRCLE  D=1.016mm                                                         FLASH OtherDrill,Unknown
+D33	CIRCLE  D=2.6mm                                                           FLASH OtherDrill,Unknown
+
+Layer Stackup
+-------------
+Top Solder Resist        : 0.01016mm  Resist
+Top Copper               : 0.03556mm  Copper
+Core                     : 1.48336mm  FR4
+Bottom Copper            : 0.03556mm  Copper
+Bottom Solder Resist     : 0.01016mm  Resist
+
+
+[END OF FILE]
